@@ -13,6 +13,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "esModuleInterop": true,
+    "types": ["vitest/globals"]
   },
   "lib": ["es2021"],
   "include": ["src/**/*"],

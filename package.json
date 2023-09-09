@@ -4,9 +4,9 @@
   "description": "AI chat application for a job application  challenge",
   "main": "src/aiServer.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch './**/.ts' --exec 'node --trace-warnings --experimental-specifier-resolution=node --loader ts-node/esm' src/aiServer.js",
-    "dev:node": "nodemon --exec ts-node src/aiServer.ts"
+    "dev:node": "nodemon --exec ts-node src/aiServer.ts",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "Marcos Moura",
@@ -23,6 +23,7 @@
     "@types/node": "^20.5.9",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
   }
 }
