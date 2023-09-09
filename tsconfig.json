@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "preserve",
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./dist",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+  },
+  "lib": ["es2021"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "NodeNext",
+      "esModuleInterop": true,
+    },
+    "esm": true
+  }
+}

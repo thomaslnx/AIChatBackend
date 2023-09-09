@@ -1,0 +1,28 @@
+{
+  "name": "ai-chat-backend",
+  "version": "1.0.0",
+  "description": "AI chat application for a job application  challenge",
+  "main": "src/aiServer.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch './**/.ts' --exec 'node --trace-warnings --experimental-specifier-resolution=node --loader ts-node/esm' src/aiServer.js",
+    "dev:node": "nodemon --exec ts-node src/aiServer.ts"
+  },
+  "keywords": [],
+  "author": "Marcos Moura",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
