@@ -13,7 +13,6 @@ export const createCompletion = async (req: Request, res: Response) => {
           },
         ]
       })
-      console.log('>> Bot: ', aiBot.choices[0].message)
       const response = {
         messageDate: aiBot.created,
         botAnswer: aiBot.choices[0].message

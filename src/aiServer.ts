@@ -2,7 +2,8 @@ import cors from 'cors'
 import express from 'express'
 
 import { createCompletion } from './controllers/chat.completion.controller'
-// import readline from 'node:readline'
+// import readline from 'node:readline' // to use the chatbot cli uncomment this line
+// import { openai } from './api'       // to use the chatbot cli uncomment this line
 
 
 const server = express()
@@ -10,6 +11,8 @@ server.use(express.json())
 server.use(express.urlencoded({ extended: true }))
 server.use(cors())
 const port = 3001
+
+// ==> to use cli chatbot uncomment the lines below.
 
 // try {
 //   /**
