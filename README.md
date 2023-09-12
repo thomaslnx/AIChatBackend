@@ -87,7 +87,9 @@ I created too a file with all mock config needed by the testing framework.
 In my personal case I have a little bit more contact with Jest Test Framework, and based in what I have seen the vitest has gained notoriety on the scenario I decided to test it this time and with this I have contact with another tool commonly used at some big companies.
 
 <!-- <video src="./readme_assets/unit-testing.mp4" autostart loop title="testing" height="600" width="900" controls></video> -->
-![](readme_assets/unit-testing.gif)
+<span align="center">
+  <img src="readme_assets/unit-testing.gif" width="100%">
+</span>
 
 ## Separation of Concerns<br>
 
@@ -101,6 +103,9 @@ To run the project after make the github clone, access the project folder and in
 ```npm install``` or ```yarn``` to install all project's needed dependencies.
 
 Next create on the root of the project a ```.env``` file, then copy and past to it the ```.env.example``` file content and fill up with the user correct OpenAI credentials to correct use. The credentials could be get on companies link: [OpenAI](https://platform.openai.com/)
+<span align="center">
+  <img src="readme_assets/chatbot-cli.gif" width="100%">
+</span>
 
 then type<br>
 ```npm run dev:node```
