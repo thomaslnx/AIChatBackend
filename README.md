@@ -24,7 +24,8 @@ This project uses:
 ## In Action App
 
 Some context about this functionality: during my tests using the openAI API I had to have a way to test the communication between my application and the API and test its responses, so I decided to implement a simple CLI at the terminal to make this integration before connecting the front to the backend. To achieve this I use the native node readline to capture the input stream from the terminal and put the response from the AI API to the terminal output too.
-<video src="./readme_assets/chatbot-cli.mp4" autostart loop title="cli-example" height="600" width="900" controls> </video>
+<!-- <video src="./readme_assets/chatbot-cli.mp4" autoplay loop title="cli-example" height="600" width="900" controls> </video> -->
+![](readme_assets/chatbot-cli.gif)
 
 **How to Use the CLI** <br>
 Just uncomment the following lines:
@@ -85,7 +86,8 @@ I created too a file with all mock config needed by the testing framework.
 **The Motivation** <br>
 In my personal case I have a little bit more contact with Jest Test Framework, and based in what I have seen the vitest has gained notoriety on the scenario I decided to test it this time and with this I have contact with another tool commonly used at some big companies.
 
-<video src="./readme_assets/unit-testing.mp4" autostart loop title="testing" height="600" width="900" controls></video>
+<!-- <video src="./readme_assets/unit-testing.mp4" autostart loop title="testing" height="600" width="900" controls></video> -->
+![](readme_assets/unit-testing.gif)
 
 ## Separation of Concerns<br>
 
